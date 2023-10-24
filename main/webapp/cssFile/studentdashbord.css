@@ -1,0 +1,88 @@
+@charset "ISO-8859-1";
+/* Reset some default browser styles */
+body, h1, h2, h3, ul, li, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+header {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Navigation styles */
+nav {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+}
+
+section h2 {
+    font-size: 18px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Responsive design for smaller screens */
+@media screen and (max-width: 768px) {
+    nav ul {
+        text-align: left;
+        margin: 10px;
+    }
+    
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
